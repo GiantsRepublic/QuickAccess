@@ -1,0 +1,6 @@
+framework module Pods_QuickAccess {
+  umbrella header "Pods-QuickAccess-umbrella.h"
+
+  export *
+  module * { export * }
+}

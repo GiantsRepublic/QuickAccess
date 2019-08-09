@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9619E8FB22F16BBD008895F3 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9619E8FA22F16BBD008895F3 /* ColorViewController.swift */; };
+		9670AA3A22F1A16600881F7E /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9670AA3822F1A16600881F7E /* ColorTableViewCell.swift */; };
+		9670AA3B22F1A16600881F7E /* ColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9670AA3922F1A16600881F7E /* ColorTableViewCell.xib */; };
 		9671581222EEFC5200B8AB78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671581122EEFC5200B8AB78 /* AppDelegate.swift */; };
 		9671581422EEFC5200B8AB78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671581322EEFC5200B8AB78 /* SceneDelegate.swift */; };
 		9671581622EEFC5200B8AB78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671581522EEFC5200B8AB78 /* ViewController.swift */; };
@@ -14,9 +17,17 @@
 		9671581C22EEFC5200B8AB78 /* QuickAccess.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9671581A22EEFC5200B8AB78 /* QuickAccess.xcdatamodeld */; };
 		9671581E22EEFC5200B8AB78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9671581D22EEFC5200B8AB78 /* Assets.xcassets */; };
 		9671582122EEFC5200B8AB78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9671581F22EEFC5200B8AB78 /* LaunchScreen.storyboard */; };
+		96965D4622FB09DB00C49D7C /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96965D4522FB09DB00C49D7C /* CustomColor.swift */; };
+		96DE1C0F22EEFEA400791C50 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96DE1C0E22EEFEA400791C50 /* GoogleService-Info.plist */; };
+		CE15C9C606B47088A14E386C /* Pods_QuickAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878288563D50D10666E6817A /* Pods_QuickAccess.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65F33543804F79F2F50D6FBE /* Pods-QuickAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAccess.debug.xcconfig"; path = "Target Support Files/Pods-QuickAccess/Pods-QuickAccess.debug.xcconfig"; sourceTree = "<group>"; };
+		878288563D50D10666E6817A /* Pods_QuickAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuickAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9619E8FA22F16BBD008895F3 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		9670AA3822F1A16600881F7E /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
+		9670AA3922F1A16600881F7E /* ColorTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorTableViewCell.xib; sourceTree = "<group>"; };
 		9671580E22EEFC5200B8AB78 /* QuickAccess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickAccess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9671581122EEFC5200B8AB78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9671581322EEFC5200B8AB78 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +37,9 @@
 		9671581D22EEFC5200B8AB78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9671582022EEFC5200B8AB78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9671582222EEFC5200B8AB78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96965D4522FB09DB00C49D7C /* CustomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		96DE1C0E22EEFEA400791C50 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C112C7E86181C6CA45436042 /* Pods-QuickAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickAccess.release.xcconfig"; path = "Target Support Files/Pods-QuickAccess/Pods-QuickAccess.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE15C9C606B47088A14E386C /* Pods_QuickAccess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E20CA0B008FBFF1C04357F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65F33543804F79F2F50D6FBE /* Pods-QuickAccess.debug.xcconfig */,
+				C112C7E86181C6CA45436042 /* Pods-QuickAccess.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9619E8FC22F16BCB008895F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9671581522EEFC5200B8AB78 /* ViewController.swift */,
+				9619E8FA22F16BBD008895F3 /* ColorViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		9671580522EEFC5100B8AB78 = {
 			isa = PBXGroup;
 			children = (
 				9671581022EEFC5200B8AB78 /* QuickAccess */,
 				9671580F22EEFC5200B8AB78 /* Products */,
+				7E20CA0B008FBFF1C04357F2 /* Pods */,
+				E64B420C2DFC73B73586C6EB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +93,28 @@
 		9671581022EEFC5200B8AB78 /* QuickAccess */ = {
 			isa = PBXGroup;
 			children = (
-				9671581122EEFC5200B8AB78 /* AppDelegate.swift */,
-				9671581322EEFC5200B8AB78 /* SceneDelegate.swift */,
-				9671581522EEFC5200B8AB78 /* ViewController.swift */,
 				9671581722EEFC5200B8AB78 /* Main.storyboard */,
+				96965D4522FB09DB00C49D7C /* CustomColor.swift */,
+				9619E8FC22F16BCB008895F3 /* ViewControllers */,
+				9671581122EEFC5200B8AB78 /* AppDelegate.swift */,
+				9670AA3822F1A16600881F7E /* ColorTableViewCell.swift */,
+				9670AA3922F1A16600881F7E /* ColorTableViewCell.xib */,
+				9671581322EEFC5200B8AB78 /* SceneDelegate.swift */,
 				9671581D22EEFC5200B8AB78 /* Assets.xcassets */,
 				9671581F22EEFC5200B8AB78 /* LaunchScreen.storyboard */,
 				9671582222EEFC5200B8AB78 /* Info.plist */,
 				9671581A22EEFC5200B8AB78 /* QuickAccess.xcdatamodeld */,
+				96DE1C0E22EEFEA400791C50 /* GoogleService-Info.plist */,
 			);
 			path = QuickAccess;
+			sourceTree = "<group>";
+		};
+		E64B420C2DFC73B73586C6EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				878288563D50D10666E6817A /* Pods_QuickAccess.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9671582522EEFC5200B8AB78 /* Build configuration list for PBXNativeTarget "QuickAccess" */;
 			buildPhases = (
+				1D79D6C3D380AF8ED96C1684 /* [CP] Check Pods Manifest.lock */,
 				9671580A22EEFC5200B8AB78 /* Sources */,
 				9671580B22EEFC5200B8AB78 /* Frameworks */,
 				9671580C22EEFC5200B8AB78 /* Resources */,
+				2320A1412A7254E352D60F87 /* [CP] Embed Pods Frameworks */,
+				C814930077CA13593618EABF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,12 +179,91 @@
 			buildActionMask = 2147483647;
 			files = (
 				9671582122EEFC5200B8AB78 /* LaunchScreen.storyboard in Resources */,
+				96DE1C0F22EEFEA400791C50 /* GoogleService-Info.plist in Resources */,
 				9671581E22EEFC5200B8AB78 /* Assets.xcassets in Resources */,
 				9671581922EEFC5200B8AB78 /* Main.storyboard in Resources */,
+				9670AA3B22F1A16600881F7E /* ColorTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D79D6C3D380AF8ED96C1684 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuickAccess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2320A1412A7254E352D60F87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickAccess/Pods-QuickAccess-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickAccess/Pods-QuickAccess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C814930077CA13593618EABF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickAccess/Pods-QuickAccess-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickAccess/Pods-QuickAccess-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9671580A22EEFC5200B8AB78 /* Sources */ = {
@@ -142,9 +271,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9671581622EEFC5200B8AB78 /* ViewController.swift in Sources */,
+				96965D4622FB09DB00C49D7C /* CustomColor.swift in Sources */,
 				9671581222EEFC5200B8AB78 /* AppDelegate.swift in Sources */,
 				9671581422EEFC5200B8AB78 /* SceneDelegate.swift in Sources */,
+				9619E8FB22F16BBD008895F3 /* ColorViewController.swift in Sources */,
 				9671581C22EEFC5200B8AB78 /* QuickAccess.xcdatamodeld in Sources */,
+				9670AA3A22F1A16600881F7E /* ColorTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +418,7 @@
 		};
 		9671582622EEFC5200B8AB78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F33543804F79F2F50D6FBE /* Pods-QuickAccess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +437,7 @@
 		};
 		9671582722EEFC5200B8AB78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C112C7E86181C6CA45436042 /* Pods-QuickAccess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
